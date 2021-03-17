@@ -1,0 +1,10 @@
+Evan Chou
+Question Answers for Lab2
+
+1. The html tag we use for links is <a></a>. For instance, if we want to put a hyperlink for a specific text like Squarespace, we would do <a href="https://www.squarespace.com/">Squarespace</a>.
+
+2. The CSS to define a contanier as a flexbox is display: flex. We also use flex-direction: to define the main axis. The 4 possible values would be flex-direction: row, flex-direction: row-reverse, flex-direction: column, and flex-direction: column-reverse.
+
+3. The difference between the main axis and cross axis in a flexbox is that the main axis is defined by flex-direction, whether we type row or column. If we choose row or row-reverse, the main axis will run along the row in the inline direction, while column or column-reverse will run vice versa (top of the page to the bottom, in a block direction). The cross axis, on the other hand, runs perpendicular to the main axis, so if the flex-direction is set to row, the cross axis will run down the columns.
+
+4. A CSS selector for an id is defined by #, a CSS selector for a class is defined by ., and a CSS selector for an element is defined by the element name{}. Examples would be, in order respectively, #firstname, .learn, and p{}. p{} includes all <p> elements on the page.

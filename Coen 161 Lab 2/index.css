@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: dimgray;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+nav>ul>li {
+    display: flex;
+    display: inline;
+    color: white;
+    margin-left: 1rem;
+    font-size: 80%;
+    align-items: center;
+}
+
+nav>p {
+    font-size: 150%;
+}
+
+.listen {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 180%;
+    background-image: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.episodes {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.episodes--photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 4rem;
+    margin-left: 3rem;
+}
+
+.photo1 img {
+    width: 45%;
+    height: auto;
+}
+
+.photo2 img {
+    width: 35%;
+    height: auto;
+}
+
+.photo3 img {
+    width: 110%;
+    height: auto;
+}
+
+.learn {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: rosybrown;
+}
+
+.photo4 img {
+    width: 50%;
+    height: auto;
+}
+
+.photo4 {
+    margin-left: 15rem;
+}
+
+.last {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last>ul>li {
+    display: flex;
+    display: inline;
+    align-items: center;
+    margin-right: 2rem;
+}

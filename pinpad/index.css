@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #333;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45");
+}
+
+button {
+    height: 64px;
+    width: 64px;
+    color: #9b59b6;
+    background-color: #eee;
+    border: none;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 32px;
+    padding: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+button:hover {
+    border: 1px solid #9b59b6;
+}
+
+.success {
+    color: #2ecc71;
+    background-color: #93e6b6;
+}
+
+.error {
+    color: #e74c3c;
+    background-color: #f2a097;
+}
